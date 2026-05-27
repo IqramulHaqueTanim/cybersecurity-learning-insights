@@ -20,7 +20,7 @@ A major takeaway from this module was identifying everyday protocols that transm
 * **Web & Domain:** DNS translates domain names to IPs, and HTTP transfers web data. Both operate in cleartext.
 * **File Transfer & Email:** FTP, SMTP, POP3, and IMAP also send data and credentials without encryption. 
 * **The Secure Alternatives:** To protect data, these vulnerable protocols must be replaced with their secure versions (HTTPS, FTPS, SMTPS, IMAPS). I also reviewed how SSH replaces Telnet for secure remote administration, and how VPNs can encrypt all traffic across an untrusted network.
-* **Practical Lab (TLS Decryption):** I completed a hands-on session to see this encryption in action. I loaded a session key (ssl-key.log) into Wireshark through the TLS protocol preferences. This allowed me to decrypt the gibberish TLS traffic and read the underlying HTTP stream in plain text. ![[before-decryption.png|674]] *Figure 1: Raw TCP stream showing encrypted TLS application data before decryption.*![[after-decryption.png]] *Figure 2: Decrypted HTTP/2 stream revealing readable data after applying the session key.*
+* **Practical Lab (TLS Decryption):** I completed a hands-on session to see this encryption in action. I loaded a session key (ssl-key.log) into Wireshark through the TLS protocol preferences. This allowed me to decrypt the gibberish TLS traffic and read the underlying HTTP stream in plain text. ![before-decryption](../../../attachments/before-decryption.png) *Figure 1: Raw TCP stream showing encrypted TLS application data before decryption.*![after-decryption](../../../attachments/after-decryption.png) *Figure 2: Decrypted HTTP/2 stream revealing readable data after applying the session key.*
 
 
 ## Applied Tooling
