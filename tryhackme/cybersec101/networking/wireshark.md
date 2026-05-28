@@ -29,7 +29,7 @@ I primarily use Display Filters. Even though you can right-click almost any fiel
 * `ip.src == [IP]` (Filters strictly by source IP)
 * `ip.dst == [IP]` (Filters strictly by destination IP)
 * `tcp.port == 80` (Filters for HTTP web traffic)
-* `http` or `dns` (Filters by protocol name) and etc.![Packet Filtering Example](../../../attachments/wireshark_packet-filtering.png) **Figure 1:** Filtering packets by specific source and destination IP addresses.
+* `http` or `dns` (Filters by protocol name) and etc.![Packet Filtering Example](../../../attachments/wireshark-packet-filtering.png) *Figure 1: Filtering packets by specific source and destination IP addresses.*
 
 **Following Streams:**
 Instead of looking at individual packets, right-clicking a packet and selecting `Follow TCP Stream` or `Follow HTTP Stream` rebuilds the entire conversation. This is the best way to read cleartext credentials or see the exact request and response of a web attack.
