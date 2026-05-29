@@ -1,6 +1,6 @@
 # Tcpdump: Command-Line Traffic Analysis
 
-**Documented:** May 29, 2026
+**Documented:** May 29, 2026<br>
 **Focus:** Capturing, filtering, and analysing network traffic directly from the Linux terminal.
 
 ## Overview
