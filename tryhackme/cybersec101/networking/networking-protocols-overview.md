@@ -1,6 +1,6 @@
 # Network Architecture & Protocol Security
 
-**Documented:** May 28, 2026
+**Documented:** May 28, 2026<br>
 **Focus:** Reviewing the TCP/IP suite and understanding the difference between plaintext and secure protocols.
 
 ## Overview
