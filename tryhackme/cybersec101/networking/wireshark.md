@@ -1,6 +1,6 @@
 # Wireshark: Network Traffic Analysis
 
-**Documented:** May 29, 2026
+**Documented:** May 29, 2026<br>
 **Focus:** Packet Dissection and Traffic Filtering
 
 ## Overview
