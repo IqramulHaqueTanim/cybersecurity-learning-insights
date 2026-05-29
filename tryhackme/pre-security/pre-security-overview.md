@@ -1,6 +1,6 @@
 # TryHackMe: Pre-Security Path Overview
 
-**Path Completed:** May 15, 2026
+**Path Completed:** May 15, 2026<br>
 **Documented:** May 27, 2026
 
 ## Overview
