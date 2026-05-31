@@ -1,5 +1,6 @@
 # Public Key Cryptography & Key Management
 
+**Documented:** May 31, 2026<br>
 **Focus:** Implementing asymmetric encryption models, securely exchanging keys over untrusted networks, and verifying identity through digital signatures.
 
 ## Overview
@@ -24,5 +25,5 @@ Encryption guarantees confidentiality, but it does not prove *who* sent the mess
 
 ## 4. PGP and GPG (Pretty Good Privacy)
 Beyond securing web traffic, I explored how asymmetric cryptography is used to secure individual communications and verify software integrity. 
-* **Secure Communication:** I analyzed how PGP/GPG utilizes public-key cryptography to encrypt emails and files, ensuring that only the mathematically intended recipient can decrypt the contents.
-* **Code Integrity:** I examined the process of digitally signing code and version control commits using GPG. This prevents supply chain attacks by proving a trusted developer authored the code and that no adversary has altered it.
+* **Secure Communication:** I analysed how PGP/GPG utilizes public-key cryptography to encrypt emails and files, ensuring that only the mathematically intended recipient can decrypt the contents.
+* **Code Integrity:** I examined the process of digitally signing code and version control commits using GPG. This prevents supply chain attacks by proving a trusted developer authored the code and that no adversary has altered it. 

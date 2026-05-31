@@ -1,5 +1,6 @@
 # Nmap: Network Scan & Service Identification
 
+**Documented:** May 31, 2026<br>
 **Focus:** Mapping network topologies, discovering live hosts, and enumerating service versions without triggering excessive security alerts.
 
 ## Overview
