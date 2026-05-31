@@ -29,5 +29,5 @@ Knowing a port is open is insufficient; I need to identify the exact software ru
 ## 4. Scan Optimization & Evidence Management
 Large enterprise networks require careful tuning to balance speed with stealth, alongside proper documentation practices.
 * **Timing Templates:** I adjust scan timing from `-T0` (Paranoid) to `-T5` (Insane) based on network reliability and the presence of Intrusion Detection Systems (IDS). For instance, slowing a scan to `-T1` prevents the rapid connection spikes that alert security operations centers.
-* **Evidence Preservation:** Because terminal output is ephemeral, I consistently use the `-oA <filename>` flag. This saves the scan results simultaneously in Normal (human-readable), XML (for importing into other tools), and Grepable formats.
-* **Data Parsing:** Saving as a Grepable file (`-oG`) allows me to use command-line tools like `grep` and `awk` to quickly extract lists of IP addresses that share specific open ports across a massive network.
+* **Evidence Preservation:** Because terminal output is ephemeral, I consistently use the `-oA <filename>` flag. This saves the scan results simultaneously in Normal (human-readable), XML (for importing into other tools), and Grep-able formats.
+* **Data Parsing:** Saving as a Grep-able file (`-oG`) allows me to use command-line tools like `grep` and `awk` to quickly extract lists of IP addresses that share specific open ports across a massive network.
