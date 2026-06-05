@@ -1,6 +1,6 @@
 # Hashing: Data Integrity & Password Security
 
-**Documented:** June 02, 2026
+**Documented:** June 02, 2026<br>
 **Focus:** Utilizing cryptographic hash functions to verify file integrity, securely store authentication credentials, and execute offline password cracking attacks.
 
 ## Overview
