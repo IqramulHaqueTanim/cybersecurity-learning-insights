@@ -1,5 +1,6 @@
 # John the Ripper: Advanced Hash Cracking & Password Recovery
 
+**Documented:** May 02, 2026<br> 
 **Focus:** Executing dictionary attacks, deploying custom word mangling rules, and utilizing format conversion tools to recover plaintext credentials.
 
 ## Overview
